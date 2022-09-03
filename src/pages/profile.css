@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    min-height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.headercontainerblur {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.newcontainer {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.containerformodel {
+    max-width: 700px;
+    height: 450px;
+}
+
+.leftpartheader {
+    margin-top: 9px;
+    transition: transform 1.5s;
+}
+
+.headernickname {
+    font-size: 20px;
+    font-family: system-ui;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.leftpartheader:hover {
+    transform: scale(1.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.navpartheadera {
+    font-family: system-ui;
+    text-decoration: none;
+    color: slategrey;
+    font-size: 15px;
+    margin-right: 20px;
+    transition: all 0.5s;
+}
+
+.navpartheadera:hover {
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.navpartheader {
+    margin: 20px auto;
+    display: flex;
+    width: 600px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rightpartheader>a {
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 20px;
+    color: dimgrey;
+    transition: all 0.5s;
+}
+
+.rightpartheader>a:last-child {
+    margin-right: 0px;
+}
+
+.rightpartheader>a:hover {
+    color: black;
+}
+
+.rightpartheader {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bannerimg {
+    border-radius: 50%;
+}
+
+.bannernickname {
+    text-decoration: none;
+    color: black;
+    font-size: 36px;
+    font-family: system-ui;
+    font-weight: 700;
+}
+
+.bannerabout {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: system-ui;
+}
+
+.bannermail {
+    text-decoration: none;
+    color: black;
+    font-family: system-ui;
+}
+
+.info {
+    margin-bottom: 40px;
+}
+
+.optionname {
+    text-transform: uppercase;
+    font-family: system-ui;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.option:hover .underline {
+    border-bottom: 5px solid #729260;
+}
+
+.underline {
+    border-bottom: 5px solid grey;
+    transition: all 0.7s;
+}
+
+.underlineabout {
+    width: 53px;
+}
+
+.aboutmetext {
+    font-family: system-ui;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+.aboutmetext_first {
+    margin-bottom: 30px;
+}
+
+.aboutmetext_second {
+    margin-bottom: 0px;
+}
+
+.aboutbutton {
+    text-decoration: none;
+    color: black;
+    font-family: system-ui;
+    font-weight: 600;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: #729260;
+    transition: all 0.7s;
+}
+
+.centerbutton {
+    text-align: center;
+}
+
+.aboutbutton:hover {
+    background-color: #567c41;
+}
+
+.about {
+    margin-bottom: 30px;
+}
+
+.underlinebio {
+    width: 88px;
+}
+
+.listbio {
+    margin-top: 20px;
+}
+
+.year {
+    width: 150px;
+    color: black;
+    font-family: system-ui;
+    text-align: left;
+    vertical-align: top;
+}
+
+.describtion {
+    width: 350px;
+    font-family: system-ui;
+    font-weight: 400;
+    text-align: left;
+    vertical-align: top;
+    padding-bottom: 15px;
+}
+
+.rotated {
+    transform: rotate(90deg);
+}
+
+.hobby {
+    margin-bottom: 20px;
+}
+
+.underlinehobby {
+    width: 52px
+}
+
+.underlineweb {
+    width: 34px;
+}
+
+.weblink {
+    display: block;
+    text-decoration: none;
+    font-family: system-ui;
+    color: #567c41;
+    font-weight: 500;
+    padding: 6px 12px;
+    background-color: white;
+    transition: background-color 0.7s;
+    border-radius: 10px;
+}
+
+.weblink_first {
+    width: 108px;
+}
+
+.weblink_second {
+    width: 101px;
+}
+
+.weblink_third {
+    width: 107px;
+}
+
+.weblinks {
+    margin-top: 20px;
+
+}
+
+.weblink:hover {
+    background-color: #D1E7D1;
+}
+
+.weblink:hover .forunderline {
+    text-decoration: underline;
+}
+
+#hobbyrune_1 {
+    color: #567c41;
+}
+
+#hobbyrune_2 {
+    color: #567c41;
+}
+
+#hobbyrune_3 {
+    color: #567c41;
+}
+
+#hobbyrune_4 {
+    color: #567c41;
+}
+
+#hobbyrune_5 {
+    color: #567c41;
+}
+
+#hobbyrune_6 {
+    color: #567c41;
+}
+
+
+.popularworksweb {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hpopworksweb {
+    font-family: system-ui;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.descpopworksweb {
+    font-family: system-ui;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.linkpopworksweb {
+    text-decoration: none;
+    color: black;
+}
+
+.linkpopworksweb:hover .imgpopworksweb {
+    filter: blur(2px);
+    filter: brightness(50%);
+    transition: all 0.7s;
+}
+
+.linkpopworksweb:hover .powpopworksweb {
+    opacity: 1;
+    transition: all 0.7s;
+}
+
+.imgcontainer {
+    position: relative;
+}
+
+.imgpopworksweb {
+    border-radius: 5px;
+}
+
+.powpopworksweb {
+    opacity: 0;
+    font-family: system-ui;
+    font-weight: 500;
+    position: absolute;
+    top: 50px;
+
+    color: white;
+}
+
+.powpopworksweb_1 {
+    right: 60px;
+}
+
+.powpopworksweb_2 {
+    right: 70px;
+}
+
+.webbutton {
+    margin-top: 30px;
+    width: 500px;
+    text-align: center;
+}
+
+.button_webbutton {
+    display: inline-block;
+}
+
+.footer {
+    margin-top: 20px;
+
+    text-align: center;
+}
+
+.footertext {
+    font-family: system-ui;
+    padding-bottom: 30px;
+    font-size: 13px;
+    color: dimgrey;
+}
